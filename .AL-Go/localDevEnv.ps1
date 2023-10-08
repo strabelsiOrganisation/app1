@@ -11,7 +11,7 @@ Param(
     [string] $insiderSasToken = "",
     [switch] $fromVSCode
 )
-
+#test
 $errorActionPreference = "Stop"; $ProgressPreference = "SilentlyContinue"; Set-StrictMode -Version 2.0
 
 try {
